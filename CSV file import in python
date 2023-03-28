@@ -1,0 +1,7 @@
+###### importing the our data
+df = pd.read_csv('1.25.csv')
+t = df['time (ms)']
+inp = df['input(mm)']
+out = df['output(mm)']
+
+print(inp, out)
